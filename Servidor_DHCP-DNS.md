@@ -15,7 +15,7 @@ La configuración de la interfaz de escucha la realizamos en el archivo /etc/def
 
 La configuración global y de la subred la gestionamos en el archivo /etc/dhcp/dhcpd.conf 
 
-<img width="746" height="433" alt="image" src="https://github.com/user-attachments/assets/bed7a567-70ac-41ba-b900-3bb2ac596a0a" />
+
 
 Tras aplicar los cambios, reiniciamos el servicio con el comando sudo systemctl restart isc-dhcp-server y verificamos su estado activo y en ejecución mediante sudo systemctl status isc-dhcp-server. 
 
@@ -36,7 +36,7 @@ En el archivo /etc/bind/named.conf.local declaramos las zonas maestra directa e 
 
 La base de datos de la zona directa la creamos copiando la plantilla db.local mediante el comando sudo cp /etc/bind/db.local /etc/bind/db.empresa.local 
 
-<img width="729" height="27" alt="image" src="https://github.com/user-attachments/assets/ca7813a4-7916-4e62-befb-b7dcc84ae3a8" />
+
 
 <img width="747" height="399" alt="image" src="https://github.com/user-attachments/assets/fdc38757-7dfe-499d-86f2-f74371c3af07" />
 
