@@ -38,8 +38,6 @@ La base de datos de la zona directa la creamos copiando la plantilla db.local me
 
 
 
-<img width="747" height="399" alt="image" src="https://github.com/user-attachments/assets/fdc38757-7dfe-499d-86f2-f74371c3af07" />
-
 La base de datos de la zona inversa la generamos copiando la plantilla db.127 mediante el comando sudo cp /etc/bind/db.127 /etc/bind/db.192.168.10. 
 
 <img width="745" height="25" alt="image" src="https://github.com/user-attachments/assets/4e866a57-e23d-4092-b212-bac3440cede6" />
