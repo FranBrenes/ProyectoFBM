@@ -32,7 +32,7 @@ Instalamos los paquetes necesarios mediante el comando sudo apt install bind9 bi
 
 En el archivo /etc/bind/named.conf.local declaramos las zonas maestra directa e inversa 
 
-<img width="746" height="196" alt="image" src="https://github.com/user-attachments/assets/91c749af-7376-47a1-99dc-2162c5bba675" />
+
 
 La base de datos de la zona directa la creamos copiando la plantilla db.local mediante el comando sudo cp /etc/bind/db.local /etc/bind/db.empresa.local 
 
@@ -42,7 +42,7 @@ La base de datos de la zona inversa la generamos copiando la plantilla db.127 me
 
 <img width="745" height="25" alt="image" src="https://github.com/user-attachments/assets/4e866a57-e23d-4092-b212-bac3440cede6" />
 
-<img width="752" height="262" alt="image" src="https://github.com/user-attachments/assets/33256480-972d-47fe-8270-49d84af86f54" />
+
 
 Para la resolución de nombres externos, modificamos el archivo /etc/bind/named.conf.options introduciendo en la sección forwarders las direcciones de los servidores DNS públicos 8.8.8.8 y 1.1.1.1. 
 
