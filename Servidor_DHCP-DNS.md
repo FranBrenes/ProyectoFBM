@@ -42,7 +42,7 @@ La base de datos de la zona inversa la generamos copiando la plantilla db.127 me
 
 <img width="745" height="25" alt="image" src="https://github.com/user-attachments/assets/4e866a57-e23d-4092-b212-bac3440cede6" />
 
-<img width="751" height="215" alt="image" src="https://github.com/user-attachments/assets/cb81f687-5811-46da-b41a-7cd6ac4998a9" />
+<img width="708" height="253" alt="image" src="https://github.com/user-attachments/assets/589a1cca-c738-467e-862e-80b5e05f17d4" />
 
 Para la resolución de nombres externos, modificamos el archivo /etc/bind/named.conf.options introduciendo en la sección forwarders las direcciones de los servidores DNS públicos 8.8.8.8 y 1.1.1.1. 
 
