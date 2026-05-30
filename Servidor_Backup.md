@@ -28,3 +28,4 @@ Para evitar conflictos de permisos de escritura directa sobre los volúmenes de 
 
 <img width="672" height="78" alt="image" src="https://github.com/user-attachments/assets/ee5463bb-0755-4adc-ac08-cd7e68b29664" />
 
+<img width="737" height="71" alt="image" src="https://github.com/user-attachments/assets/dc791c53-494a-4d37-8e55-f009703823c4" />
